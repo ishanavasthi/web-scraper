@@ -29,10 +29,10 @@ def scrp_amzn(url):
 
                 # Printing the product name and price if found, and breaking the loop
                 if price_element:
-                    print("⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘")
+                    print("------------------------------------------------------------------------------------")
                     print("• Product Name : " + product_name.get_text().strip())
                     print("\n⁘ Product Price : ₹" + price_element.get_text().strip())
-                    print("⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘")
+                    print("------------------------------------------------------------------------------------")
                     print("\n")
                     break
 

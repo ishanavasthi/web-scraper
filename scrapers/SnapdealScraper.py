@@ -10,10 +10,10 @@ def scrp_snpdl(url):
         product_name = soup.find('h1', {'class': 'pdp-e-i-head'}).text.strip()
         product_price = soup.find('span', {'class': 'payBlkBig'}).text.strip()
         
-        print("\n⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘")
+        print("\n------------------------------------------------------------------------------------")
         print('• Product Name :', product_name)
         print('\n⁘ Product Price : ₹', product_price)
-        print("⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘")
+        print("------------------------------------------------------------------------------------")
     except Exception as e:
         print('Error:', str(e))
 

@@ -11,10 +11,10 @@ def scrp_fkart(url):
         product_name = soup.find('span', {'class': 'B_NuCI'}).text.strip()
         product_price = soup.find('div', {'class': '_30jeq3 _16Jk6d'}).text.strip()
         
-        print("\n⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘")
+        print("\n------------------------------------------------------------------------------------")
         print('• Product Name :', product_name)
         print('\n⁘ Product Price :', product_price)
-        print("⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘⁙•⁘")
+        print("------------------------------------------------------------------------------------")
     except Exception as e:
         print('Error:', str(e))
 
